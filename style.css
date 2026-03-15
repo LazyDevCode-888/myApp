@@ -1,0 +1,171 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans Thai", sans-serif;
+}
+
+/* เมนู */
+.navbar {
+    background: #1a73e8;
+    padding: 14px 32px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+/* โลโก้ */
+.logo {
+    color: white;
+    font-size: 22px;
+    font-weight: 700;
+    margin-right: auto;
+}
+
+/* ลิงก์เมนู */
+.nav-link {
+    color: rgba(255,255,255,0.85);
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.nav-link:hover {
+    color: white;
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+    padding: 40px 20px 60px;
+}
+
+/* banner */
+.banner {
+    width: 100%;
+    height: 360px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 32px;
+}
+
+/* หัวข้อ */
+.page-title {
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+/* ข้อความ */
+.text {
+    color: #555;
+    font-family: 15px;
+    line-height: 1.8;
+    margin-bottom: 12px;
+}
+
+/* section */
+.section {
+    margin-top: 48px;
+}
+
+.section-title {
+    font-size: 20px;
+    font-weight: 700;
+    border-left: 4px solid #1a73e8;
+    padding: 12px;
+    margin-bottom: 20px;
+}
+
+.feature-row {
+    display: flex;
+    gap: 16px;
+}
+
+.feature-box {
+    flex: 1;
+    background: white;
+    border-radius: 8px;
+    border: 1px solid #e0e0e0;
+    text-align: center;
+    padding: 10px;
+}
+
+.product-box {
+    width: 220px;
+    background: white;
+    border-radius: 8px;
+    border: 1px solid #e0e0e0;
+    overflow: hidden;
+}
+
+.product-img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.product-row {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+.product-info {
+    padding: 16px;
+}
+
+.product-name {
+    font-size: 13px;
+    font-weight: 700;
+    margin-bottom: 4px;
+}
+
+.product-desc {
+    font-size: 13px;
+    color: #777;
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
+.product-price {
+    font-size: 18px;
+    font-weight: 700;
+    color: #e65100;
+    margin-bottom: 10px;
+}
+
+.button {
+    width: 100%;
+    padding: 10px;
+    background: #1a73e8;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.button:hover {
+    background: #1558b0;
+}
+
+.footer {
+    background: #1a1a2e;
+    color: white;
+    padding: 32px 40px;
+    margin-top: auto;
+}
+
+.footer h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #7baaf7;
+}
+
+.footer-text {
+    color: #aaa;
+    font-size: 14px;
+    margin-top: 5px;
+}
